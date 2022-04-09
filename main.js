@@ -134,7 +134,7 @@ function right(){
     if (player_x <= 850){
         player_x = player_x + block_image_width
         canvas.remove(play_object);
-        play_update();
+        play_update();}
 }
 function down(){
     console.log("down");
